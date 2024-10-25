@@ -3,8 +3,8 @@
     "next/core-web-vitals",
     "next/typescript",
     "standard",
-    "prettier",
-    "plugin:tailwindcss/recommended"
+    "plugin:tailwindcss/recommended",
+    "prettier"
   ],
   "plugins": ["import"],
   "rules": {
