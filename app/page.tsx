@@ -1,7 +1,11 @@
-export default function Home() {
+import React from "react";
+
+const page = () => {
   return (
-    <h1 className="justify-center text-center text-3xl font-black text-white">
-      Welcome to the world of NextJS 15
-    </h1>
+    <div>
+      <h1>Test</h1>
+    </div>
   );
-}
+};
+
+export default page;
