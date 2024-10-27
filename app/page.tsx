@@ -2,9 +2,9 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <h1>Test</h1>
-    </div>
+    <>
+      <h1 className="h1-bold">Welcome to the world of Next.js</h1>
+    </>
   );
 };
 
