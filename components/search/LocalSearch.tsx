@@ -26,7 +26,7 @@ const LocalSearch = ({ route, imgSrc, placeholder, otherClasses }: Props) => {
   const pathname = usePathname();
 
   useEffect(() => {
-    const delayDebaunceFn = setTimeout(() => {
+    const delayDebounceFn = setTimeout(() => {
       if (searchQuery) {
         const newURL = formUrlQuery({
           params: searchParams.toString(),
@@ -42,7 +42,7 @@ const LocalSearch = ({ route, imgSrc, placeholder, otherClasses }: Props) => {
           });
           router.push(newURL, { scroll: false });
         }
-        return () => clearTimeout(delayDebaunceFn);
+        return () => clearTimeout(delayDebounceFn);
       }
     }, 300);
   }, [searchQuery, searchParams, router, route, pathname]);
