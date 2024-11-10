@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Link from "next/link";
 import React from "react";
 
