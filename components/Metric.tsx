@@ -37,9 +37,7 @@ const Metric = ({
         {value}
 
         <span
-          className={`small-regular line-clamp-1 ${
-            isAuthor ? "max-sm:hidden" : ""
-          }`}
+          className={`small-regular line-clamp-1 ${isAuthor ? "max-sm:hidden" : ""}`}
         >
           {title}
         </span>

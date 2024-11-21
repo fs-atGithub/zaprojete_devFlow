@@ -13,15 +13,19 @@ const Navbar = () => {
           src="/images/site-logo.svg"
           width={23}
           height={23}
-          alt="devFlow logo"
+          alt="DevFlow Logo"
         />
+
         <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900 max-sm:hidden">
           Dev<span className="text-primary-500">Flow</span>
         </p>
       </Link>
-      <p>Global search</p>
+
+      <p>Global Search</p>
+
       <div className="flex-between gap-5">
         <Theme />
+
         <MobileNavigation />
       </div>
     </nav>

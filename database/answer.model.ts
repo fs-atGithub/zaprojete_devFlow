@@ -1,6 +1,5 @@
-import { model, models, Schema, Types } from "mongoose";
+import { model, models, Schema, Types, Document } from "mongoose";
 
-// Create an iterface representing AnswerSchema
 export interface IAnswer {
   author: Types.ObjectId;
   question: Types.ObjectId;
@@ -9,6 +8,7 @@ export interface IAnswer {
   downvotes: number;
 }
 
+export interface IAnswerDoc extends IAnswer, Document {}
 const AnswerSchema = new Schema<IAnswer>(
   {
     author: { type: Schema.Types.ObjectId, ref: "User", required: true },
@@ -20,6 +20,6 @@ const AnswerSchema = new Schema<IAnswer>(
   { timestamps: true }
 );
 
-const Answer = models?.Account || model<IAnswer>("Account", AnswerSchema);
+const Answer = models?.Answer || model<IAnswer>("Answer", AnswerSchema);
 
 export default Answer;
