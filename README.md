@@ -21,7 +21,6 @@
     </div>
 </div>
 
-
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 🤖 [Introduction](#introduction)
@@ -32,7 +31,7 @@
 
 ## 🚨 Course
 
-This repository contains the code corresponding to an in-depth course available on our  <a href="https://jsmastery.pro/" target="_blank"><b>JavaScript Mastery Pro Website</b></a>. 
+This repository contains the code corresponding to an in-depth course available on our <a href="https://jsmastery.pro/" target="_blank"><b>JavaScript Mastery Pro Website</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our course to learn how to build projects like these step-by-step in a beginner-friendly manner
 
@@ -40,10 +39,9 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
   <img src="https://github.com/user-attachments/assets/54ef6cd0-1f00-4989-a6a5-3f77ca3f68a2" style="width: 150px; height: auto;" />
 </a>
 
-
 ## <a name="introduction">🤖 Introduction</a>
 
-In this in-depth course, you’ll master Next.js by building and deploying a full-stack project, Devoverflow—a community-driven platform inspired by StackOverflow, enhanced with AI-powered answers, gamification, recommendations, and more. Using the latest features of Next.js, you’ll explore rendering strategies like SSG, ISR, SSR, PPR, Server Functions, Caching, & Revalidation to create a production-ready application. 
+In this in-depth course, you’ll master Next.js by building and deploying a full-stack project, Devoverflow—a community-driven platform inspired by StackOverflow, enhanced with AI-powered answers, gamification, recommendations, and more. Using the latest features of Next.js, you’ll explore rendering strategies like SSG, ISR, SSR, PPR, Server Functions, Caching, & Revalidation to create a production-ready application.
 
 The project uses MongoDB for a robust database layer, NextAuth (Auth.js) for versatile authentication options (Email/Password, GitHub, Google), and sleek styling with TailwindCSS and ShadCN UI. Devoverflow enables developers to ask questions, post answers, leverage AI for responses, vote, organize content, contribute, discover jobs, and explore recommended topics—all while engaging with gamified elements like badges and rewards.
 
@@ -63,53 +61,53 @@ If you're getting started and need assistance or encounter any bugs, you can joi
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Authentication**: Secure sign-in with NextAuth, supporting Email/Password, Google, and GitHub.  
+👉 **Authentication**: Secure sign-in with NextAuth, supporting Email/Password, Google, and GitHub.
 
-👉 **Home Page**: Displays questions with filters, search, and pagination for easy navigation.  
+👉 **Home Page**: Displays questions with filters, search, and pagination for easy navigation.
 
-👉 **Recommendations**: Personalized suggestions on the home page.  
+👉 **Recommendations**: Personalized suggestions on the home page.
 
-👉 **Complex Layout**: Organized layout with popular questions and tags in view.  
+👉 **Complex Layout**: Organized layout with popular questions and tags in view.
 
-👉 **Question Details**: View questions with rich content, including images and code blocks.  
+👉 **Question Details**: View questions with rich content, including images and code blocks.
 
-👉 **Voting**: Upvote/downvote on questions to highlight helpful content.  
+👉 **Voting**: Upvote/downvote on questions to highlight helpful content.
 
-👉 **View Counter**: Tracks the number of views for each question.  
+👉 **View Counter**: Tracks the number of views for each question.
 
-👉 **Bookmarking**: Save questions for quick access later.  
+👉 **Bookmarking**: Save questions for quick access later.
 
-👉 **Answer Posting**: MDX editor with light/dark modes for submitting answers.  
+👉 **Answer Posting**: MDX editor with light/dark modes for submitting answers.
 
-👉 **AI Answer Generation**: Get AI-generated responses to questions.  
+👉 **AI Answer Generation**: Get AI-generated responses to questions.
 
-👉 **Answer Filtering**: Sort answers by newest or most-voted, with pagination.  
+👉 **Answer Filtering**: Sort answers by newest or most-voted, with pagination.
 
-👉 **Answer Voting**: Upvote/downvote answers to rank quality responses.  
+👉 **Answer Voting**: Upvote/downvote answers to rank quality responses.
 
-👉 **Collections**: Organized saved questions with filters, search, and pagination.  
+👉 **Collections**: Organized saved questions with filters, search, and pagination.
 
-👉 **Community**: Browse all users with search, filters, and pagination.  
+👉 **Community**: Browse all users with search, filters, and pagination.
 
-👉 **Profile**: View user info, badges, and engagement history with pagination.  
+👉 **Profile**: View user info, badges, and engagement history with pagination.
 
-👉 **Job Finder**: Discover jobs with filters and search, tailored to the user’s location.  
+👉 **Job Finder**: Discover jobs with filters and search, tailored to the user’s location.
 
-👉 **Tags Page**: List of all tags with question counts, filters, and pagination.  
+👉 **Tags Page**: List of all tags with question counts, filters, and pagination.
 
-👉 **Tag Details**: View questions by tag with search and pagination.  
+👉 **Tag Details**: View questions by tag with search and pagination.
 
-👉 **Ask a Question**: Simple interface for posting new questions.  
+👉 **Ask a Question**: Simple interface for posting new questions.
 
-👉 **Edit & Delete**: Update or remove questions and answers with validation and authorization.  
+👉 **Edit & Delete**: Update or remove questions and answers with validation and authorization.
 
 👉 **Global Search**: Find content across questions, users, tags, and more.
 
-👉 **Responsive Design**: Fully optimized for a seamless experience on desktops, tablets, and mobile devices.  
+👉 **Responsive Design**: Fully optimized for a seamless experience on desktops, tablets, and mobile devices.
 
 👉 **High Performance**: Fast loading and smooth interactions for an efficient user experience.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -178,10 +176,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-
 ## <a name="links">🔗 Assets</a>
 
 Assets used in the project can be found [here](https://drive.google.com/file/d/1nBru53dqIY4__A_WsburhpdiWUbdbncY/view?usp=sharing)
-
 
 #
